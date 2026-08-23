@@ -34,7 +34,7 @@ wrapper you reach past. That is a direction, not a plan with a date.
 
 ## Start here
 
-Open `ResearchFramework` first — it is the analysis core the two loaders
+Open `ResearchFramework` first: it is the analysis core the two loaders
 feed. The naming convention is `<domain>-kit`; the sibling surfaces are
 `dev-kit` (editor and tooling config), `cloud-kit` (syncing between
 machines), `data-kit` (validation, checks and transforms), and `ai-kit`
