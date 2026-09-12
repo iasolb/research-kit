@@ -8,13 +8,13 @@ new machine.
 
 | Submodule | What it does | Installs as |
 |---|---|---|
-| `ResearchFramework` | regressions, forecasting, and result output for papers | `research-framework` |
+| `otter` | study design, working subsets, and Monte Carlo simulation | `otter`, [on PyPI](https://pypi.org/project/otter/) |
 | `FRED_Loader` | readable names over the FRED API instead of raw series codes | `fred-loader` |
 | `Census_Loader` | readable names over the US Census APIs instead of raw variable codes | `census-loader` |
 
-All three are installable Python packages as of 2026-08-21, verified by
-installing each into a clean virtual environment and importing every public
-name.
+All three are installable Python packages. `otter` is published, so you can
+`pip install otter` without cloning anything; the other two are installed from
+source until they are published too.
 
 ## Clone
 
@@ -34,8 +34,8 @@ wrapper you reach past. That is a direction, not a plan with a date.
 
 ## Start here
 
-Open `ResearchFramework` first: it is the analysis core the two loaders
-feed. The naming convention is `<domain>-kit`; the sibling surfaces are
+Open `otter` first: it is the analysis core the two loaders feed. The naming
+convention is `<domain>-kit`; the sibling surfaces are
 `dev-kit` (editor and tooling config), `cloud-kit` (syncing between
 machines), `data-kit` (validation, checks and transforms), and `ai-kit`
 (the AI tooling umbrella).
