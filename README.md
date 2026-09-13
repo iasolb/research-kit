@@ -8,13 +8,12 @@ new machine.
 
 | Submodule | What it does | Installs as |
 |---|---|---|
-| `otter` | study design, working subsets, and Monte Carlo simulation | `otter`, [on PyPI](https://pypi.org/project/otter/) |
-| `FRED_Loader` | readable names over the FRED API instead of raw series codes | `fred-loader` |
-| `Census_Loader` | readable names over the US Census APIs instead of raw variable codes | `census-loader` |
+| `otter` | econometrics: regressions, diagnostics, forecasting, and paper-ready result tables | `otter`, [on PyPI](https://pypi.org/project/otter/) |
+| `fred-loader` | readable names over the FRED API instead of raw series codes | `fred-loader` |
+| `census-loader` | readable names over the US Census APIs instead of raw variable codes | `census-loader` |
 
-All three are installable Python packages. `otter` is published, so you can
-`pip install otter` without cloning anything; the other two are installed from
-source until they are published too.
+All three are installable Python packages. The loaders fetch and name public
+data; `otter` does the econometrics on it.
 
 ## Clone
 
@@ -34,7 +33,7 @@ wrapper you reach past. That is a direction, not a plan with a date.
 
 ## Start here
 
-Open `otter` first: it is the analysis core the two loaders feed. The naming
+Open `otter` first: it is the econometrics core the two loaders feed. The naming
 convention is `<domain>-kit`; the sibling surfaces are
 `dev-kit` (editor and tooling config), `cloud-kit` (syncing between
 machines), `data-kit` (validation, checks and transforms), and `ai-kit`
