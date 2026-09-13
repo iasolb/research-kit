@@ -1,9 +1,9 @@
 [submodule "otter"]
 	path = otter
 	url = https://github.com/iasolb/otter.git
-[submodule "FRED_Loader"]
-	path = FRED_Loader
-	url = https://github.com/iasolb/FRED_Loader.git
-[submodule "Census_Loader"]
-	path = Census_Loader
-	url = https://github.com/iasolb/Census_Loader.git
+[submodule "fred-loader"]
+	path = fred-loader
+	url = https://github.com/iasolb/fred-loader.git
+[submodule "census-loader"]
+	path = census-loader
+	url = https://github.com/iasolb/census-loader.git
